@@ -1,0 +1,63 @@
+body{
+    background-color: lightblue;
+}
+.mainDiv{
+    background-image: url("zelda.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    border: solid black 2px;
+    width: 80%;
+    height: 500px;
+    margin: 0 auto;
+    margin-top: 60px;
+}
+
+.collect{
+    width: 100%;
+    text-align: center;
+    color: rgb(39, 39, 39);
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.div-1{
+    width: 80px;
+    height: 120px;
+    padding: 5px;
+    /* border: solid 2px red; */
+    display: inline-block;
+}
+.rupees {
+    padding: 10px;
+    width: 60px;
+    margin: 0 auto;
+}
+.numbers{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    text-align: center;
+    display: flex;
+    width: 100%;
+    margin: 0 auto;
+    justify-content: center;
+}
+h1{
+    
+    width: 60px;
+    height: 30px;
+    margin: 0 auto;
+    background-color: lightgrey;
+    border: solid 2px rgb(63, 63, 63);
+    margin-bottom: 0px;
+    padding: 5px;
+}
+.wallet{
+    width: 60px;
+    height: 60px;
+    position: relative;
+    margin: 0 auto;
+    margin-top: 80px;
+    
+}
