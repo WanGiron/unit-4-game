@@ -1,4 +1,4 @@
-
+alert('Click on the rupees to collect them!');
                 // global variables
                 var counter = 0;
                 var randomGem = Math.floor((Math.random() * 100) + 1);
@@ -39,6 +39,10 @@
    
                        // initiane  new game after get score up
                        randomGem = Math.floor((Math.random() * 100) + 1);
+
+                        var otherGem = Math.floor((Math.random() * 10) + 1);
+                        otherGem = parseInt(otherGem);
+                        counter += otherGem; 
    
                        // setting gems no less than 10
                        if(randomGem < 10){
